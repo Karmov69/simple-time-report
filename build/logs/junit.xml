@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="4" assertions="16" errors="0" failures="0" skipped="0" time="1.166225">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.369393">
+      <testsuite name="Tests\Unit\ExampleTest" file="/var/www/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.369393">
+        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/var/www/tests/Unit/ExampleTest.php" line="15" assertions="1" time="0.369393"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="3" assertions="15" errors="0" failures="0" skipped="0" time="0.796832">
+      <testsuite name="Tests\Feature\Auth\LoginTest" file="/var/www/tests/Feature/Auth/LoginTest.php" tests="3" assertions="15" errors="0" failures="0" skipped="0" time="0.796832">
+        <testcase name="testLogin" class="Tests\Feature\Auth\LoginTest" classname="Tests.Feature.Auth.LoginTest" file="/var/www/tests/Feature/Auth/LoginTest.php" line="22" assertions="2" time="0.272859"/>
+        <testcase name="testCanUserCRUDMyReports" class="Tests\Feature\Auth\LoginTest" classname="Tests.Feature.Auth.LoginTest" file="/var/www/tests/Feature/Auth/LoginTest.php" line="30" assertions="6" time="0.287700"/>
+        <testcase name="testCanUserViewReports" class="Tests\Feature\Auth\LoginTest" classname="Tests.Feature.Auth.LoginTest" file="/var/www/tests/Feature/Auth/LoginTest.php" line="67" assertions="7" time="0.236273"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

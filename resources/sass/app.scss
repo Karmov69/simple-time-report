@@ -1,0 +1,12 @@
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+//custom
+@import "status";
+
+a {
+    color: $white;
+}
